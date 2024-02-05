@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* ... (existing styles) */
+
+.back-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/* Add a scaling animation on hover for the back icon */
+.back-icon:hover {
+  transform: scale(1.1);
+}
+
+/* ... (existing styles) */
+
+.material-symbols-outlined {
+  font-family: "Material Icons Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Change the font size as needed */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+/* ... (existing styles) */
+
+.clicked {
+  font-size: 20px;
+  background-color: #ffffff; /* Change the background color as desired */
+  transition: all 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; /* Add a smooth transition effect */
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: none;
+}
+
+/* Add a scaling animation on hover for all buttons */
+button:hover {
+  transform: scale(1.1);
+}
+
+.pixelify-sans-1 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
